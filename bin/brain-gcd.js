@@ -42,4 +42,8 @@ do {
     );
     break;
   }
+
+  if (i === 3) {
+    console.log(`Congratulations, ${userName}!`);
+  }
 } while (i < 3);
