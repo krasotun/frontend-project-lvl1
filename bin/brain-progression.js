@@ -1,21 +1,18 @@
 #!/usr/bin/env node
 
-console.log('Brain progression id here');
+console.log('Brain progression is here');
 
 const progression = [];
 
+let value = Math.floor(Math.random() * 10);
+const step = Math.floor(Math.random() * 3) + 1;
+
 for (let i = 0; i < 10; i += 1) {
-  progression.push(Math.floor(Math.random() * 10));
+  progression.push(value);
+
+  value += step;
 }
 
-console.log('before', progression);
-
 const hiddenValueIndex = Math.floor(Math.random() * 9);
-
 const savedValue = progression[hiddenValueIndex];
-
 progression[hiddenValueIndex] = '..';
-
-console.log('after', progression);
-
-console.log(savedValue);
