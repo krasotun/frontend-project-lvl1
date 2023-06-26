@@ -23,7 +23,7 @@ do {
   const savedValue = progression[hiddenValueIndex];
   progression[hiddenValueIndex] = '..';
 
-  console.log(`Question: ${progression}`);
+  console.log(`Question: ${progression.join(' ')}`);
   const result = +readlineSync.question('Your answer:');
 
   if (+result === savedValue) {
