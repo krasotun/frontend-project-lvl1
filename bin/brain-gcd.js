@@ -38,7 +38,7 @@ do {
       `'${result}' is wrong answer ;(. Correct answer was '${gcd(
         first,
         second,
-      )}' \nLet's try again, ${userName}`,
+      )}' \nLet's try again, ${userName}!`,
     );
     break;
   }

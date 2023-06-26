@@ -28,7 +28,7 @@ do {
       i += 1;
     } else if (result !== sum) {
       console.log(
-        `'${result}' is wrong answer ;(. Correct answer was '${sum}' \nLet's try again, ${userName}`,
+        `'${result}' is wrong answer ;(. Correct answer was '${sum}' \nLet's try again, ${userName}!`,
       );
       break;
     }
@@ -42,7 +42,7 @@ do {
       i += 1;
     } else if (result !== diff) {
       console.log(
-        `'${result}' is wrong answer ;(. Correct answer was '${diff}' \nLet's try again, ${userName}`,
+        `'${result}' is wrong answer ;(. Correct answer was '${diff}' \nLet's try again, ${userName}!`,
       );
       break;
     }
@@ -55,7 +55,7 @@ do {
       i += 1;
     } else if (result !== prod) {
       console.log(
-        `'${result}' is wrong answer ;(. Correct answer was '${prod}' \nLet's try again, ${userName}`,
+        `'${result}' is wrong answer ;(. Correct answer was '${prod}' \nLet's try again, ${userName}!`,
       );
       break;
     }
